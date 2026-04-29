@@ -32,12 +32,22 @@ vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, { desc = 'Open diagn
 vim.keymap.set('t', '<Esc><Esc>', '<C-\\><C-n>', { desc = 'Exit terminal mode' })
 
 -- TIP: Disable arrow keys in normal mode
-vim.keymap.set('n', 'n', '<Left>')
-vim.keymap.set('n', 'e', '<Up>')
-vim.keymap.set('n', 'i', '<Down>')
-vim.keymap.set('n', 'o', '<Right>')
-vim.keymap.set('n', 't', '<Insert>')
-vim.keymap.set('n', 'O', 'o')
+vim.keymap.set('n', 'n', 'h')
+vim.keymap.set('n', 'e', 'j')
+vim.keymap.set('n', 'i', 'k')
+vim.keymap.set('n', 'o', 'l')
+-- vim.keymap.set('n', 'N', 'H')
+-- vim.keymap.set('n', 'E', 'J')
+-- vim.keymap.set('n', 'I', 'K')
+-- vim.keymap.set('n', 'O', 'L')
+
+-- 't' for insert to the right, 'a' for to the left.
+-- Capitals mean end/beginning of line
+vim.keymap.set('n', 't', 'a')
+vim.keymap.set('n', 'T', 'A')
+vim.keymap.set('n', 'a', 'i')
+vim.keymap.set('n', 'A', 'I')
+vim.keymap.set('n', '<S-CR>', 'o')
 vim.keymap.set('n', 'N', 'n')
 -- "s for substitute" is now for surrounds. Use "c for change" instead.
 -- vim.keymap.set('n', '<left>', '<cmd>echo "Use h to move!!"<CR>')
