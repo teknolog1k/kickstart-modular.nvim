@@ -48,6 +48,7 @@ vim.keymap.set('n', 'T', 'A')
 vim.keymap.set('n', 'a', 'i')
 vim.keymap.set('n', 'A', 'I')
 vim.keymap.set('n', '<S-CR>', 'o')
+vim.keymap.set('n', '<C-M>', 'o')
 vim.keymap.set('n', 'N', 'n')
 -- "s for substitute" is now for surrounds. Use "c for change" instead.
 -- vim.keymap.set('n', '<left>', '<cmd>echo "Use h to move!!"<CR>')
