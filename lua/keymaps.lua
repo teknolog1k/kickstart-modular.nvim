@@ -32,6 +32,13 @@ vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, { desc = 'Open diagn
 vim.keymap.set('t', '<Esc><Esc>', '<C-\\><C-n>', { desc = 'Exit terminal mode' })
 
 -- TIP: Disable arrow keys in normal mode
+vim.keymap.set('n', 'n', '<Left>')
+vim.keymap.set('n', 'e', '<Up>')
+vim.keymap.set('n', 'i', '<Down>')
+vim.keymap.set('n', 'o', '<Right>')
+vim.keymap.set('n', 't', '<Insert>')
+vim.keymap.set('n', 'O', 'o')
+vim.keymap.set('n', 'N', 'n')
 -- vim.keymap.set('n', '<left>', '<cmd>echo "Use h to move!!"<CR>')
 -- vim.keymap.set('n', '<right>', '<cmd>echo "Use l to move!!"<CR>')
 -- vim.keymap.set('n', '<up>', '<cmd>echo "Use k to move!!"<CR>')
