@@ -1,6 +1,7 @@
 {
   "LuaSnip": { "branch": "master", "commit": "642b0c595e11608b4c18219e93b88d7637af27bc" },
   "baleia.nvim": { "branch": "main", "commit": "32617940adb2eea56e85a64883a19961ceac9641" },
+  "base16-nvim": { "branch": "master", "commit": "6b4f4a07b8b0c23a5cd3740631d96a97d7ccec09" },
   "blink.cmp": { "branch": "main", "commit": "78336bc89ee5365633bcf754d93df01678b5c08f" },
   "codediff.nvim": { "branch": "main", "commit": "8afc229d38dc13ce71b2ffbb860084b2c726e061" },
   "conform.nvim": { "branch": "master", "commit": "dca1a190aa85f9065979ef35802fb77131911106" },
@@ -36,7 +37,6 @@
   "pathlib.nvim": { "branch": "main", "commit": "57e5598af6fe253761c1b48e0b59b7cd6699e2c1" },
   "plenary.nvim": { "branch": "master", "commit": "74b06c6c75e4eeb3108ec01852001636d85a932b" },
   "precognition.nvim": { "branch": "main", "commit": "06e4bfa339ddc55a49fd1adcbb403f6e0855c43b" },
-  "rocks.nvim": { "branch": "main", "commit": "1393fc0025dcd9452b6786b01c78d27e26ef4f07" },
   "rose-pine": { "branch": "main", "commit": "6a961effd67f6130d36df6d1c05c48c739796dd2" },
   "smear-cursor.nvim": { "branch": "main", "commit": "9e9378d6ee34bb3782e0e8c63d9ec8ca618b479b" },
   "store.nvim": { "branch": "main", "commit": "bd894bd538c013c04d2b5bdae4eb5c83d3d38758" },
